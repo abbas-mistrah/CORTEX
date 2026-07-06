@@ -1,0 +1,9 @@
+# Liste BLANCHE : on ne pousse QUE l'app web et le contexte.
+# backend/, deploy/, keyboard/, etc. contiennent des secrets ou du legacy → jamais sur GitHub.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/webapp/
+
+# Données de calibration = contenu interne leboncoin → privé, jamais poussé
+/webapp/calib_conv1.txt
