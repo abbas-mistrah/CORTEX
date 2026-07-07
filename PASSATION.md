@@ -40,3 +40,9 @@
 
 ## Prochaine étape recommandée
 Brique « aperçu avant enregistrement » (backlog #1) : concevoir l'UI (cartes proposées avec 3 boutons, mode calme, rien ne bouge pendant la frappe) + brancher sur doImport. Puis re-test import réel, puis V20.
+
+## Journal des sessions (chaque session AJOUTE ici avant de finir — Fait / Décidé / Reste)
+### 2026-07-07 — Session PC (passation initiale)
+- **Fait** : V18 en prod ; V19 prête dans le dépôt (fix quotas + import calibré) ; calibration validée par Abbas ; dépôt GitHub créé + branché à l'app mobile (via collaborateur abbasmistrahext-creator) ; skill /wrap-up installé sur le PC.
+- **Décidé** : standard de fiche validé (1 Histoire dense datée) ; instructions = colères citées ; garanties dans le code, pas le prompt ; travail mobile via sessions cloud sur ce dépôt.
+- **Reste** : coller/déployer la V19 (geste PC) ; brique aperçu avant enregistrement ; import de masse ; PWA ; wrap-up NotebookLM.

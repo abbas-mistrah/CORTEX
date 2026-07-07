@@ -22,6 +22,9 @@ Webapp « second cerveau » : mémoire de vie stockée dans **SON Google Drive**
 - **V19 prête dans ce dépôt** (correctif quotas + prompt d'import v10.4 calibré sur exemple validé par Abbas + garde-fous code) — à coller dans l'éditeur Apps Script puis « Nouvelle version ».
 - Backlog : import de masse ChatGPT (export ZIP), aperçu avant enregistrement (✅ Garder/✏️ Corriger/🗑️ Jeter), PWA icône téléphone, wrap-up relié NotebookLM/Gemini, rotation clé n8n.
 
+## RÈGLE DE CLÔTURE OBLIGATOIRE (toutes les sessions, surtout cloud/mobile)
+Avant de terminer (ou dès qu'un travail significatif est fait) : ajoute une entrée datée dans `PASSATION.md` → section « Journal des sessions » : **Fait / Décidé / Reste à faire** (3-6 lignes, style Abbas). Puis commit + push. C'est ce qui permet à TOUTES les autres sessions (PC et mobiles) de rester à jour — ne JAMAIS terminer sans.
+
 ## Interdits techniques
 - Pas de secrets dans le code ni dans ce dépôt (backend/, deploy/ restent hors git — liste blanche dans .gitignore).
 - Vérifier la syntaxe avant de livrer : extraire le <script> de index.html → `node --check`.
