@@ -4,6 +4,7 @@
 !/.gitignore
 !/CLAUDE.md
 !/PASSATION.md
+!/.claude/
 !/webapp/
 
 # Données de calibration = contenu interne leboncoin → privé, jamais poussé
